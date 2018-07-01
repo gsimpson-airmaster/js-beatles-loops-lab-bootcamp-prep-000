@@ -14,5 +14,21 @@ function theBeatlesPlay(muso, inst) {
 }
 
 function johnLennonFacts(array) {
-  
+  var facts = [];
+  var i = 0;
+  while(i < array.length) {
+    facts[i] = array[i] + "!!!";
+  }
+  return facts;
+}
+
+function iLoveTheBeatles(idx) {
+  var array = [];
+  do {
+    array.push("I love the Beatles!")
+    idx++;
+  }
+  while {
+    idx < 15;
+  }
 }
